@@ -65,13 +65,14 @@ function deleteFromCart(id){
 }
 
 function getTotalCost(){
-    let totalCost=0;
-    cartProducts.map((cartItem)=>{
-        const productData=getProductData(cartItem.id);
-        totalCost+=(productData.price*cartItem.quantity);
+    let totalCost = 0;
+    cartProducts.forEach((cartItem) => {
+        const productData = getProductData(cartItem.id);
+        totalCost += (productData.price * cartItem.quantity);
     });
     return totalCost;
 }
+
 
 const contextValue={
     items:cartProducts,
