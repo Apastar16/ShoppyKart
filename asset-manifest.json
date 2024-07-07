@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Apastar16/ShoppyKart.git/static/css/main.f251f349.css",
+    "main.js": "/Apastar16/ShoppyKart.git/static/js/main.dc5d7a53.js",
+    "static/js/453.b8ba712b.chunk.js": "/Apastar16/ShoppyKart.git/static/js/453.b8ba712b.chunk.js",
+    "index.html": "/Apastar16/ShoppyKart.git/index.html",
+    "main.f251f349.css.map": "/Apastar16/ShoppyKart.git/static/css/main.f251f349.css.map",
+    "main.dc5d7a53.js.map": "/Apastar16/ShoppyKart.git/static/js/main.dc5d7a53.js.map",
+    "453.b8ba712b.chunk.js.map": "/Apastar16/ShoppyKart.git/static/js/453.b8ba712b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f251f349.css",
+    "static/js/main.dc5d7a53.js"
+  ]
+}
