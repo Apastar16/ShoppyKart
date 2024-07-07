@@ -15,9 +15,9 @@ function App() {
     <Container>
    <NavbarComponent />
    
-   
+
    <Routes>
-<Route exact path ="/" element={<Store />}/>
+<Route exact path ="https://Apastar16.github.io/ShoppyKart/" element={<Store />}/>
 <Route path="/success" element={<Success/>}/>
 <Route path="/cancel" element={<Cancel/>}/>
 
