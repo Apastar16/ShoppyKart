@@ -17,7 +17,7 @@ function App() {
    
 
    <Routes>
-<Route  index path ="/" element={<Store />}/>
+<Route exact path ="Apastar16.github.io/ShoppyKart/" element={<Store />}/>
 <Route path="/success" element={<Success/>}/>
 <Route path="/cancel" element={<Cancel/>}/>
 
