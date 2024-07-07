@@ -1,37 +1,22 @@
 import React from 'react';
-import {Row,Col} from 'react-bootstrap';
+import {Container,Row,Col} from 'react-bootstrap';
 import { productArray } from '../productStore';
 import ProductCard from '../components/ProductCard';
 const Store = () => {
   return (
     <>
     <h1 align="center" className="p-3">Welcome to Our Store!</h1>
-     <Row xs={1} md={3}  className='g-4'>{productArray.map((product,idx)=>(
-      <Col align="center" key={idx}>
-       <ProductCard product={product}/>
-      </Col>
-     ))}
-              
-
-     </Row>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    </>
+    <Container>
+            <Row>
+                {productArray.map(product => (
+                    <Col key={product.id} sm="12" md="6" lg="4" className="mb-3">
+                        <ProductCard product={product} />
+                    </Col>
+                ))}
+            </Row>
+        </Container>
+     
+              </>
   )
 }
 

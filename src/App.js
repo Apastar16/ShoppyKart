@@ -11,17 +11,20 @@ import CartProvider from './CartContext';
 function App() {
   return (
     <CartProvider>
+      <BrowserRouter>
     <Container>
    <NavbarComponent />
-   <BrowserRouter>
+   
+   
    <Routes>
-<Route index element={<Store />}/>
-<Route path="success" element={<Success/>}/>
-<Route path="cancel" element={<Cancel/>}/>
+<Route exact path ="/" element={<Store />}/>
+<Route path="/success" element={<Success/>}/>
+<Route path="/cancel" element={<Cancel/>}/>
 
    </Routes>
-   </BrowserRouter>
+  
    </Container>
+   </BrowserRouter>
    </CartProvider>
   );
 }

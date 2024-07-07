@@ -16,8 +16,8 @@ return(
                 productQuantity>0?
                 <>
                 <Form as={Row}>
-                    <Form.Label column="true" sm="6">In Cart: {productQuantity}</Form.Label>
-                    <Col sm="6">
+                    <Form.Label column sm="6">In Cart: {productQuantity}</Form.Label>
+                    <Col sm="6" className="d-flex align-items-center">
                     <Button sm="6" onClick={()=>cart.addOneToCart(product.id)} className="mx-2" >+</Button>
                     <Button sm="6" onClick={()=>cart.removeOneFromCart(product.id)} className="mx-2" >-</Button>
                     </Col>
