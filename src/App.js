@@ -17,7 +17,7 @@ function App() {
    
 
    <Routes>
-<Route path ="/" element={<Store />}/>
+<Route  index path ="/" element={<Store />}/>
 <Route path="/success" element={<Success/>}/>
 <Route path="/cancel" element={<Cancel/>}/>
 
