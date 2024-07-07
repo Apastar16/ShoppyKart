@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ShoppyKart/static/css/main.f251f349.css",
-    "main.js": "/ShoppyKart/static/js/main.395b346c.js",
+    "main.js": "/ShoppyKart/static/js/main.f862dfd7.js",
     "static/js/453.b8ba712b.chunk.js": "/ShoppyKart/static/js/453.b8ba712b.chunk.js",
     "index.html": "/ShoppyKart/index.html",
     "main.f251f349.css.map": "/ShoppyKart/static/css/main.f251f349.css.map",
-    "main.395b346c.js.map": "/ShoppyKart/static/js/main.395b346c.js.map",
+    "main.f862dfd7.js.map": "/ShoppyKart/static/js/main.f862dfd7.js.map",
     "453.b8ba712b.chunk.js.map": "/ShoppyKart/static/js/453.b8ba712b.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f251f349.css",
-    "static/js/main.395b346c.js"
+    "static/js/main.f862dfd7.js"
   ]
 }
